@@ -1,0 +1,111 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  justify-content: center;
+
+}
+div {
+  display: block;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.header {
+  position: fixed;
+  top: 0;
+
+  z-index: 1;
+  display: block;
+  background-color: black;
+  height: 85px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+}
+.logo {
+  padding-left: 10px;
+  height: 50px;
+  align-items: center;
+}
+.top-nav {
+  text-align: right;
+  flex-grow: 1;
+  color: seashell;
+  padding-right: 15px;
+
+  text-decoration: none;
+  align-items: center;
+}
+.top-nav a:link {
+  color: seashell;
+}
+.top-nav a:visited {
+  color: seashell;
+}
+.main {
+  padding-top: 86px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+
+}
+#mission {
+  padding-top: 69px;
+  height: 700px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+.headline {
+  background-color: black;
+  margin: auto;
+  width: 1200px;
+  text-align: center;
+  align-items: center;
+}
+#mission .headline h2 {
+  padding-top: 1px;
+}
+
+.tea {
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+.tea img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+  display: block;
+}
+.tea span{
+  display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: space-between;
+}
+.location {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 100%;
+  padding-top: 70px;
+
+}
+.addressbox {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  width: 200px;
+  align-items: center;
+}
