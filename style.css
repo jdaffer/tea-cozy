@@ -90,22 +90,39 @@ div {
     text-align: center;
     justify-content: space-between;
 }
-.location {
+#location .flex-container {
+  margin:auto;
+  width: 1100px;
+  padding-top: 5px;
+}
+#location {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   height: 500px;
-  width: 100%;
   padding-top: 70px;
 
 }
+#location h2 {
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
 .addressbox {
-  opacity: 1.0;
+  opacity: 1;
   padding: 10px;
   margin: 5px 20px;
+  flex-basis: 280px;
   background-color: black;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 300px;
-  width: 200px;
   align-items: center;
+  height: 300px;
+  justify-content: center;
+}
+.contact {
+  height: 200px;
+}
+.copyright{
+  padding-left: 20px;
+  text-align: left;
+  font-size: 12px;
 }
